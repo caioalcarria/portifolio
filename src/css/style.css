@@ -20,14 +20,13 @@ header{
 }
 div.menu{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     width: 1280px;
 
 }
 div.logo{}
 div.logo a{
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: bolder;
+    font-family: 'Fascinate', cursive;
     font-size: 24px;
 }
 .menu nav{
@@ -38,15 +37,102 @@ div.logo a{
 .menu nav a{
     font-family: 'Space Mono', monospace;
     font-size: 15px;
+    margin-left: 50px;
     
 }
 
 div.botao{
-    width: 160px;
+    width: 107px;
+    height: 56px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    margin-left: 53px;
+    align-items: center;
+    border: solid 2px;
+    border-radius: 50px;
+    border-color: #FEB796;
+ 
 }
 div.botao a{
     font-family: 'Space Mono', monospace;
     font-size: 13.5px;
+    color: #FEB796;
+}
+
+
+main{}
+
+/*parte 1*/ 
+
+div.p1{
+    background-color: #212173;
+    height: 525px;
+    display: flex;
+    align-items: center;
+    
+
+}
+div.container{
+    width: 1314px;
+    height: 424px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+div.text{
+    width: 67%;
+    min-height: 100%;
+
+}
+div.text h1{
+    font-size: 78px;
+    font-family: 'Fascinate', cursive;
+    margin-bottom: 115px;
+}
+div.text p{
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 34px;
+}
+div.botao_1{
+    border: solid 2px;
+    border-radius: 50px;
+    border-color: #FEB796;
+    width: 140px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.botao_1 a{
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+    color: #FEB796;
+   
+}
+div.img{}
+div.img img{
+    width: 404px;
+    height: 404px;
+}
+
+
+/*parte 2*/
+
+div.p2{
+    height: 110px;
+    background-color: #FEB796;
+}
+div.p2 .caixa{
+    width: 1314px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+div.caixa h3{
+    color: black;
+    font-size: 33px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
 }
