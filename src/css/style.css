@@ -60,7 +60,10 @@ div.botao a{
 }
 
 
-main{}
+main{
+    display: flex;
+    flex-direction: column;
+}
 
 /*parte 1*/ 
 
@@ -132,7 +135,67 @@ div.p2 .caixa{
 }
 div.caixa h3{
     color: black;
-    font-size: 33px;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
     font-weight: 400;
+}
+
+/*parte 3 */
+
+div.p3{
+    height: 1220px;
+}
+div.box{
+    width: 1314px;
+    margin: 0 auto;
+
+}
+.title{
+    color: black;
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+div.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: o auto;
+    width: 100%;
+    justify-content: space-between;
+
+}
+div.card{
+    margin-bottom: 120px;
+}
+div.card img{
+    width: 376.39px;
+    margin-bottom: 33px;
+}
+div.card h2{
+    color: black;
+    font-family: 'Fascinate', cursive;
+    margin-bottom: 35px;
+}
+div.card p{
+    color: black;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    margin-bottom: 37px;
+}
+div.visite_projeto{
+    border: solid 2px;
+    border-radius: 50px;
+    border-color: black;
+    width: 140px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.visite_projeto a{
+    color: black;
+    font-family: 'Space Mono', monospace;
+    font-size: 13.5px;
 }
