@@ -1,0 +1,52 @@
+html,body,figure,header,ul,li,img,p,h1,h2,h3,nav,div,a, section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+body{}
+
+/*cabeçalho*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212173;
+    height: 138px;
+
+}
+div.menu{
+    display: flex;
+    align-items: flex-end;
+    width: 1280px;
+
+}
+div.logo{}
+div.logo a{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.menu nav{
+    width: 918px;
+    display: flex;
+    justify-content: end;
+}
+.menu nav a{
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    
+}
+
+div.botao{
+    width: 160px;
+    display: flex;
+    justify-content: end;
+}
+div.botao a{
+    font-family: 'Space Mono', monospace;
+    font-size: 13.5px;
+}
