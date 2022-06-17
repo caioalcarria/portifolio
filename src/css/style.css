@@ -42,6 +42,9 @@ div.logo a{
 }
 .menu nav a:hover{
     font-weight: bolder;
+    transition-duration: .5s;
+    
+   
 }
 
 div.botao{
@@ -58,6 +61,7 @@ div.botao{
 }
 div.botao:hover{
     background-color: #FEB796;
+    transition-duration: .5s;
     
 }
 div.botao a{
@@ -72,6 +76,8 @@ div.botao a{
 }
 div.botao a:hover{
     color: white;
+    transition-duration: .5s;
+    
 }
 
 
@@ -124,6 +130,7 @@ div.botao_1{
 }
 div.botao_1:hover{
     background-color: #FEB796;
+    transition-duration: .5s;
 }
 
 div.botao_1 a{
@@ -139,6 +146,7 @@ div.botao_1 a{
 }
 div.botao_1:hover a{
     color: white;
+    transition-duration: .5s;
 }
 div.img{}
 div.img img{
@@ -193,17 +201,23 @@ div.projetos{
     width: 100%;
     justify-content: space-between;
 
+
 }
 div.card{
     margin-bottom: 120px;
+    
+    
     
 }
 div.card img{
     width: 376.39px;
     margin-bottom: 33px;
+    
 }
 div.card img:hover{
     width: 400px;
+    transition-duration: .5s;
+    
 }
 div.card h2{
     color: black;
@@ -215,6 +229,7 @@ div.card p{
     font-family: 'Space Mono', monospace;
     font-size: 15px;
     margin-bottom: 37px;
+    
 }
 div.visite_projeto{
     border: solid 2px;
@@ -229,6 +244,7 @@ div.visite_projeto{
 div.visite_projeto:hover{
     border-color: white;
     background-color: black;
+    transition-duration: .5s;
 }
 div.visite_projeto a{
     color: black;
@@ -242,4 +258,5 @@ div.visite_projeto a{
 }
 div.visite_projeto a:hover{
     color: white;
+    transition-duration: .5s;
 }
