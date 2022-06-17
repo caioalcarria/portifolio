@@ -6,7 +6,9 @@ html,body,figure,header,ul,li,img,p,h1,h2,h3,nav,div,a, section{
     text-decoration: none;
     color: white;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{}
 
 /*cabeçalho*/
@@ -38,6 +40,7 @@ div.logo a{
     font-family: 'Space Mono', monospace;
     font-size: 15px;
     margin-left: 50px;
+    transition-duration: .5s;
     
 }
 .menu nav a:hover{
@@ -57,6 +60,7 @@ div.botao{
     border: solid 2px;
     border-radius: 50px;
     border-color: #FEB796;
+    transition-duration: .5s;
  
 }
 div.botao:hover{
@@ -73,6 +77,7 @@ div.botao a{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: .5s;
 }
 div.botao a:hover{
     color: white;
@@ -127,6 +132,7 @@ div.botao_1{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: .5s;
 }
 div.botao_1:hover{
     background-color: #FEB796;
@@ -142,6 +148,7 @@ div.botao_1 a{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: .5s;
    
 }
 div.botao_1:hover a{
@@ -205,20 +212,35 @@ div.projetos{
 }
 div.card{
     margin-bottom: 120px;
-    
+    width: 376.39px;
+    height: 438px;
+    display: flex;
+    align-items: flex-end;
+
     
     
 }
 div.card img{
     width: 376.39px;
     margin-bottom: 33px;
+    position: absolute;
+    align-self: flex-start;
+    transition-duration: .5s;
+    
+
     
 }
 div.card img:hover{
-    width: 400px;
+    padding-left: 23px;
+    padding-right: 23px;
     transition-duration: .5s;
     
 }
+div.teste{
+    
+
+}
+
 div.card h2{
     color: black;
     font-family: 'Fascinate', cursive;
@@ -240,6 +262,7 @@ div.visite_projeto{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: .5s;
 }
 div.visite_projeto:hover{
     border-color: white;
@@ -255,6 +278,7 @@ div.visite_projeto a{
     justify-content: center;
     width: 100%;
     height: 100%;
+    transition-duration: .5s;
 }
 div.visite_projeto a:hover{
     color: white;
