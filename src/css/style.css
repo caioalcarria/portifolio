@@ -6,10 +6,21 @@ html,body,figure,header,ul,li,img,p,h1,h2,h3,nav,div,a, section{
     text-decoration: none;
     color: white;
 }
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  
+
+
+
 html{
     scroll-behavior: smooth;
+    
 }
-body{}
+body{
+    
+}
 
 /*cabeçalho*/
 header{
@@ -24,6 +35,7 @@ div.menu{
     display: flex;
     align-items: center;
     width: 1280px;
+    height: 100%;
 
 }
 div.logo{}
@@ -35,17 +47,22 @@ div.logo a{
     width: 918px;
     display: flex;
     justify-content: end;
+    height: 100%;
 }
 .menu nav a{
     font-family: 'Space Mono', monospace;
     font-size: 15px;
     margin-left: 50px;
     transition-duration: .5s;
+    height: 56px;
+
     
 }
 .menu nav a:hover{
-    font-weight: bolder;
+    border: solid 2px;
+    height: 56px;
     transition-duration: .5s;
+    
     
    
 }
@@ -82,6 +99,7 @@ div.botao a{
 div.botao a:hover{
     color: white;
     transition-duration: .5s;
+    
     
 }
 
@@ -222,6 +240,7 @@ div.card{
 }
 div.card img{
     width: 376.39px;
+    height: 213.23;
     margin-bottom: 33px;
     position: absolute;
     align-self: flex-start;
