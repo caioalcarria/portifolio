@@ -48,6 +48,8 @@ div.logo a{
     display: flex;
     justify-content: end;
     height: 100%;
+    align-items: center;
+    ;
 }
 .menu nav a{
     font-family: 'Space Mono', monospace;
@@ -55,14 +57,15 @@ div.logo a{
     margin-left: 50px;
     transition-duration: .5s;
     height: 56px;
+    display: flex;
+    align-items: center;
 
     
 }
 .menu nav a:hover{
-    border: solid 2px;
-    height: 56px;
-    transition-duration: .5s;
     
+    transition-duration: .5s;
+    transform: scale(1.1, 1.1);
     
    
 }
@@ -250,8 +253,7 @@ div.card img{
     
 }
 div.card img:hover{
-    padding-left: 23px;
-    padding-right: 23px;
+    transform: scale(0.95, 0.95);
     transition-duration: .5s;
     
 }
